@@ -1,0 +1,710 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.d-block {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.random {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+  pointer-events: none;
+}
+
+.carousel {
+    position: relative;
+    
+    overflow: hidden;
+}
+
+
+.carousel-item {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 4px;
+    border: none;
+    background-color: red;
+    font-size: bold;
+    color: white;
+}
+
+.btn-danger {
+    padding: 10px 250px;
+}
+
+
+
+.carousel-header {
+    margin-top: -20px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 3;
+}
+
+#logo {
+    width: 75px;
+    margin-left: 70px;
+    border-radius: 150px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 4px;
+    color: red;
+    border: none;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.dropdown-button:hover {
+    background-color: white;
+    color: red;
+    transition: 0.2s ease;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid white;
+    min-width: 160px;
+    z-index: 1000;
+}
+
+.dropdown-list li {
+    list-style: none;
+}
+
+.dropdown-list li a {
+    display: block;
+    padding: 2px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-list li a:hover {
+    display: flex;
+    align-items: right;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.dropdown :hover .dropdown-list {
+    display: block;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    z-index: 4;
+}
+
+.random1 {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(./Assets/images/hotel\ image\ 2.jpg);
+}
+
+
+
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.men {
+    margin-left: -200px;
+}
+
+
+
+
+
+
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+.card-bodys {
+    margin-top: 70px;
+}
+
+.card-bodys p {
+    margin-bottom: 0px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-8 {
+    border-radius: 5px;
+    background-color: black;
+    border-right: 5px;
+    padding-left: 40px;
+    margin-left: -200px;
+}
+
+.card-bodys p {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+
+.card-text {
+    color: black;
+}
+
+.img-fluid {
+    height: 338px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.logos {
+    height: 40px;
+    width: 40px;
+}
+
+
+.nav > button {
+    margin-left: 1000px;
+}
+
+.logo {
+    height: 65px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+#card2 {
+  margin-left: 800px;
+}
+
+
+#card {
+    margin-left: 800px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.card-img-top {
+    height: 400px;
+}
+
+.row {
+    max-width: 1300px;
+    margin-left: 100px;
+}
+
+
+
+
+.fourth {
+    margin-top: 30px;
+}
+
+
+.col-md-6 > p {
+    text-align: left;
+}
+
+
+.fifth {
+    background-image: linear-gradient(rgba(231, 228, 228, 0.897), rgba(217, 212, 212, 0.859)), url(./images/background);
+    margin-top: 0px;
+}
+
+.card-custom {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    position: relative;
+    height: 400px;
+}
+.overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    margin-left: 40px;
+}
+
+.first {
+    top: 270px;
+    
+}
+
+.second {
+    margin-top: 30px;
+}
+
+.seven {
+    margin-top: 30px;
+}
+
+.seven > h2,h3 {
+    font-size: 40px;
+}
+
+.seven > p {
+    text-align: left;
+}
+
+.btn-red {
+    background-color: #e91b23;
+    color: white;
+}
+
+.card-img {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
+.grey {
+    background-color: gray;
+}
+
+
+.annual {
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+
+.card-body > p {
+    text-align: left;
+}
+
+
+
+
+.header4 {
+    position: absolute;
+    margin-top: 50px;
+    background-color: rgb(61, 59, 59);
+    left: 0px;
+    width: 100%;
+    height: 30%;
+    /* padding-bottom: 20px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header4 .footer {
+    position: absolute;
+    right: 1100px;
+}
+
+.header4 .footer a img {
+    height: 100px;
+}
+
+.header4 a {
+    color: rgb(211, 209, 209);
+    text-decoration: none;
+}
+
+.header4 a:hover {
+    color: white;
+}
+
+.header4 .footer2 {
+    position: absolute;
+    right: 800px;
+}
+
+.header4 .footer3 {
+    position: absolute;
+    right: 500px;
+}
+
+.header4 .footer4 {
+    position: absolute;
+    right: 300px;
+}
+
+
+.footer5 {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 250px;
+    background-color: rgb(45, 45, 45);
+}
+
+.footer5 p {
+    color: white;
+}
+
+.footer5 .footer6 {
+    padding-right: 520px;
+}
+
+.footer5 .footer7 img{
+    padding-left: 7px;
+    padding-bottom: 16px;
+}
+
+.footer5 img {
+    height: 70px;
+}
+
+
+
+
+
+.third {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 20px;
+  background-color: #444;
+}
+
+.bank-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.bank-card.reverse {
+  flex-direction: row-reverse;
+  background-color: #111;
+}
+
+.bank-info {
+  flex: 1;
+  padding: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bank-info.dark {
+  background-color: #000;
+}
+
+.bank-image {
+  flex: 1;
+}
+
+.bank-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.bank-logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.bank-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  align-items: center;
+}
+
+.bank-btn.red {
+  background-color: #e60012;
+  color: white;
+}
+
+.bank-btn.gold {
+  background-color: #c59d42;
+  color: white;
+}
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+  .carousel-item {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+  h1 {
+    font-size: 28px;
+    color: white;
+  }
+
+  .carousel-header {
+    margin-top: -20px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+  }
+
+  
+  .d-block {
+    height: 600px;
+  }
+
+
+   .carousel-caption {
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: block;
+}
+
+
+   
+
+
+
+
+    #carouselExampleAutoplaying {
+      height: 600px;
+    }
+
+
+      h1 {
+        color: black;
+      }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 4px;
+    color: red;
+    border: none;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.dropdown-button:hover {
+    background-color: white;
+    color: red;
+    transition: 0.2s ease;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid white;
+    min-width: 160px;
+    z-index: 1000;
+}
+
+.dropdown-list li {
+    list-style: none;
+}
+
+.dropdown-list li a {
+    display: block;
+    padding: 2px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-list li a:hover {
+    display: flex;
+    align-items: right;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.dropdown :hover .dropdown-list {
+    display: block;
+}
+
+
+
+  .btn-danger {
+    padding: 10px 30px;
+  }
+
+  .third > h2 {
+    font-size: 30px;
+  }
+
+  .py-5 {
+    margin-top: 0px;
+  }
+
+  .row {
+    margin-left: 10px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-custom {
+    height: auto;
+  }
+
+  .card-img-top {
+    height: 250px;
+  }
+
+  .annual {
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .grid {
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+
+  .header4, .footer5 {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+  }
+
+  .header4 .footer,
+  .header4 .footer2,
+  .header4 .footer3,
+  .header4 .footer4 {
+    position: static;
+    margin-bottom: 10px;
+  }
+
+  .footer5 .footer6 {
+    padding-right: 0;
+  }
+
+  #card, #card2, .col-md-8 {
+    margin-left: 0;
+    padding-left: 10px;
+  }
+
+  .logos {
+    height: 30px;
+    width: 30px;
+  }
+
+  button, .butt {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+
+  @media (max-width: 768px) {
+  .bank-card {
+    flex-direction: column;
+  }
+
+  .bank-card.reverse {
+    flex-direction: column;
+  }
+
+  .bank-info,
+  .bank-image {
+    flex: 1 1 100%;
+  }
+
+  .bank-info {
+    padding: 20px;
+  }
+}
+
+}
+
